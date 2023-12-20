@@ -1,0 +1,54 @@
+/* Colours: #1f3848, #e56399, #d3a588, #ece2d0, #7fd1b9 */
+* {
+  border: none;
+  /* font-family: 'Symbols Nerd Font Mono';*/
+  font-size: 16px;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+#workspaces button {
+  background: #11111b;
+  color: #ece2d0;
+}
+
+#clock, #pulseaudio, #pulseaudio.microphone, #bluetooth, #network, #battery, #window{
+  border-radius: 10px;
+  background-color: #1f2838;
+  color: #d3a588;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#clock{
+  color: #e56399;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+#network{
+  color: #99c2a2;
+}
+
+#battery {
+  color: #d3a588;
+  margin-left: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#pulseaudio {
+  color: #e56399;
+  border-radius: 0px;
+}
+
+#pulseaudio.microphone {
+  color: #7fd1b9;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-right: 10px;
+}
